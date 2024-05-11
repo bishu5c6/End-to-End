@@ -1,0 +1,16 @@
+day - 1:
+---------------
+1. project introduction
+2. Github repo setup
+3. Project template
+4. requirements.txt
+
+day - 2:
+-----------------
+1. notebook experiment
+2. project utility  -> logging, exception, utils.py
+3. project workflows
+
+python -m pip install -U pip setuptools
+
+Y-test are actual and x-test predicted
