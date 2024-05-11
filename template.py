@@ -4,7 +4,14 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s:')
 
-project_name = "Wine_Quality_Prediction"
+while True:
+    project_name = input("Enter your project name: ")
+    if project_name !='':
+        break
+
+logging.info(f"Creating project by name: {project_name}")
+
+#project_name = "Wine_Quality_Prediction"
 
 list_of_files = [
     f"src/{project_name}/__init__.py",
