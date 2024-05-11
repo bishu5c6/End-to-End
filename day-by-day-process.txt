@@ -14,3 +14,6 @@ day - 2:
 python -m pip install -U pip setuptools
 
 Y-test are actual and x-test predicted
+
+loggeing - level name - root folder
+module   - sub level name - sub module
