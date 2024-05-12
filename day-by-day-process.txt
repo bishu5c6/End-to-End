@@ -1,3 +1,22 @@
+Workflows of the entire projects:
+You have to update the project in the manner only.
+
+update config.yaml
+update schema.yaml
+update params.yaml
+update the entity
+update the configuration manager in src config
+update the components
+update the pipeline
+update the main.py
+update the app.py
+
+
+
+
+
+
+
 day - 1:
 ---------------
 1. project introduction
@@ -17,3 +36,39 @@ Y-test are actual and x-test predicted
 
 loggeing - level name - root folder
 module   - sub level name - sub module
+
+how to read yaml with pyaml package.
+https://ioflood.com/blog/python-yaml/#:~:text=The%20PyYAML%20library%20allows%20you,write%20YAML%20files%20with%20ease.&text=In%20this%20example%2C%20we%20import,the%20corresponding%20Python%20data%20structure.
+
+Why we use YAML?
+YAML is a popular programming language and data serialization language that's used for 
+configuration files, automation, and data exchange. 
+YAML is known for being easy to read, versatile, and lightweight.
+
+confibox(pythob box) demo
+
+day - 3 :
+--------------------
+
+1. data ingestion component.
+2. data validation
+3. data transformation
+
+
+config/ config.yaml
+In the config. yaml we downloading the data and store the and unzip the data and store the data into csv folder.
+
+schema.yaml:
+In these column you have to mention column names and their data types.
+we will use these file for validation.
+
+params.yaml:
+Initially when you run the file it shoudn't be empty otherwise it will throw an error.
+
+ENtity is nothing but a return type of function.
+
+After entity you have to do configuration here you read all the three files.
+
+constants folder you are using is not changeable
+
+Open constants and mentioning the path 
