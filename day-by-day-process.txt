@@ -71,4 +71,7 @@ After entity you have to do configuration here you read all the three files.
 
 constants folder you are using is not changeable
 
-Open constants and mentioning the path 
+Open constants and mentioning the path
+
+
+Data Validation we are going to check whether these are the columns that we have. 
