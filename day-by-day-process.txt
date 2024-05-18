@@ -75,3 +75,15 @@ Open constants and mentioning the path
 
 
 Data Validation we are going to check whether these are the columns that we have. 
+
+after completion of data validation.
+
+we are going to do data transformation.
+here we will do train split operation and if required we will do the transformation of the data.
+
+day-4
+-------------------------------
+1. model trainer component
+2. model evaluation
+prediction pipeline
+userapp
