@@ -52,7 +52,8 @@ day - 3 :
 
 1. data ingestion component.
 2. data validation
-3. data transformation
+3. data transformation - EDA, feature enginnering PCA, scalling.... after these we will do the train test split operation.
+
 
 
 config/ config.yaml
@@ -87,3 +88,9 @@ day-4
 2. model evaluation
 prediction pipeline
 userapp
+
+1. model trainer
+In model trainer we have to use elasticnet there we have to use two params.yaml file
+and the model model related params we will use here.
+
+

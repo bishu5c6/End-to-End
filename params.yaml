@@ -1,1 +1,7 @@
-key : val
+#write the model that you want to use along with the parameters.
+#in this case, we are using a simple linear regression model
+ElasticNet:
+  alpha: 0.2 #if you call alpha it will return these value.
+  l1_ratio: 0.1 #if you call l1 it will return these value.
+
+#if you want to use the random forest regressor you have to use model params along with para,s here.
