@@ -93,4 +93,7 @@ userapp
 In model trainer we have to use elasticnet there we have to use two params.yaml file
 and the model model related params we will use here.
 
+after all the things are changes and you want to change the metrics
+params.yaml - change the parameters and re-run the python main.py file.
+
 
